@@ -11,6 +11,7 @@ Library           KubeLibrary    incluster=true
 
 *** Variables ***
 ${NAMESPACE}         argocd
+
 *** Test Cases ***
 
 # checking basic k8s obkects are healthy in certmanager nsecret
